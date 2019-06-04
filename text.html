@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>javascript basics</title>
+</head>
+<body>
+  <script>
+      //ECMA-5 ECMA-6
+      //function=reserved word//abc id function name//() paranthasis{}//
+      function abc(){
+          var x=200;
+          var y=300;
+          var z=x+y;
+          console.log(z);
+      }
+      /*
+      var abc=function(){
+          var x=200;
+          var y=300;
+          var z=x+y;
+          console.log(z);
+      }
+      */
+      abc();// inworking
+
+      var xyz=()=>{ //arrow functions ECMA6
+      var x=2000;
+      var y=3000;
+      var z=x+y;
+      console.log(z);
+      }
+      xyz();
+      var obj={};
+      obj.abc=function(){ //method
+      var x=20;
+      var y=30;
+      var z=x+y;
+      console.log(z);
+      }
+      obj.abc();
+
+      obj.xyz=()=>{ //method
+      var x=50;
+      var y=50;
+      var z=x+y;
+      console.log(z);
+      }
+      obj.xyz();
+
+
+
+      var x=200;
+      obj.z=500; // property
+      abc();
+var xyz=()=>{
+    var x=222;
+    var y=333;
+    var z=x+y;
+    console.log(z);
+
+}
+xyz();
+
+var bbb=()=>{
+    var x=111;
+    var y=111;
+    var z=x+y;
+    console.log(z);
+
+}
+bbb();
+var x=22;
+var y=44;
+var z=x+y;
+console.log(z);
+
+var xyz=()=>{
+    var x=100;
+    var y=200;
+    var z=x+y;
+    console.warn(z);
+
+}
+xyz();
+var xyz=()=>{
+    var x=50;
+    var y=50;
+    var z=x-y;
+    console.error(z);
+}
+xyz();
+obj.abc();
+      obj.xyz();
+      var x=100;
+      obj.z=400; 
+      abc();
+var abc=function(){
+      var x=44;
+      var y=61;
+      var z=x+y;
+      console.log(z);
+}
+      abc();
+var abc=()=>{
+    var x=100;
+    var y=66;
+    var z=x+y;
+    console.error(z);
+}
+abc();
+var abc=function(){
+    var x=30;
+    var y=90;
+    var z=y-x;
+    console.log(z);
+
+}
+abc();
+  </script>  
+</body>
+</html>
